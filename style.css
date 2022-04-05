@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #333;
+  display: flex;
+  touch-action: none;
+}
+.dragMe {
+  min-width: 100px;
+  max-width: fit-content;
+
+  height: 100px;
+  background-color: rgb(245, 230, 99);
+  border: 10px solid rgba(136, 136, 136, 0.5);
+  touch-action: none;
+  user-select: none;
+  font-size: 80px;
+    text-align: center;
+    margin:0;
+}
+.dragMe:active {
+  border-color: rgba(168, 218, 220, 1);
+}
+.dragMe:hover {
+  cursor: pointer;
+}
