@@ -1,9 +1,16 @@
 /*Create tiles based on lesson*/
 function makeTiles(tilesJSON,chapter,lesson){
-
+  tilesArray = tilesJSON.chapter_1.lesson_1
+  console.log("Chapter 1, Lesson 1",tilesArray)
 }
 
-
+fetch("https://raw.githubusercontent.com/nullparrot/tiles_content/main/tiles_content.json")
+  .then((tilesTMP) =>{
+    return tilesTMP.json()
+  })
+  .then((tiles) =>{
+    makeTiles(tiles,1,1)
+  })
 
 
 /* makes element given as argument moveable*/
