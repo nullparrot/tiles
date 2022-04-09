@@ -1,8 +1,8 @@
 /*Create tiles based on lesson*/
 function makeTiles(tilesJSON, chapter, lesson) {
   console.log("The JSON", tilesJSON);
-  chapterTiles = tilesJSON["chapter_"+chapter]
-  tiles = chapterTiles["lesson_"+lesson]
+  chapterTiles = tilesJSON[chapter]
+  tiles = chapterTiles[lesson]
   console.log("Chapter 1, Lesson 1", tiles);
   tiles.forEach((tile) => {
     tileCount = tile.quantity;
