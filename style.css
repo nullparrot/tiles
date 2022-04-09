@@ -1,12 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
-
 body {
   font-family: "Open Sans", sans-serif;
 }
 
+#menu select{
+  text-align: center;
+  line-height: 30px;
+  border-radius: 0;
+  height: 30px;
+  font-size: 20px;
+}
+
+#menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
 #tiles {
   position: absolute;
-  top: 0px;
+  top: 30px;
   right: 0px;
   bottom: 0px;
   left: 0px;
@@ -17,13 +36,13 @@ body {
 }
 
 .dragMe {
-  min-width: 100px;
+  min-width: 80px;
   max-width: fit-content;
   border-radius: 10px;
-  height: 100px;
+  height: 80px;
   touch-action: none;
   user-select: none;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
   margin: 0;
 }

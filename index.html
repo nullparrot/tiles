@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta name="viewport" 
-        content="width=device-width, 
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, 
         initial-scale=1.0, 
-        user-scalable=no" />
-  <title>Drag/Drop/Bounce</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+        user-scalable=no"
+    />
+    <title>Drag/Drop/Bounce</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-  <div id="menu">
-  </div>
-  <div id="outerContainer">
-    <div id="tiles">
+  <body>
+    <form id="menu">
+      <select name="Chapter" id="chapterSelect">
+        <option value="1">Chapter 1</option>
+        <option value="2">Chapter 2</option>
+      </select>
+      <select name="Lesson" id="lessonSelect">
+        <option value="1">Lesson 1</option>
+        <option value="2">Lesson 2</option>
+      </select>
+    </form>
+    <div id="outerContainer">
+      <div id="tiles"></div>
     </div>
-  </div>
-<script src="tiles.js"></script>
-</body>
-
+    <script src="tiles.js"></script>
+  </body>
 </html>

@@ -1,7 +1,8 @@
 /*Create tiles based on lesson*/
 function makeTiles(tilesJSON, chapter, lesson) {
   console.log("The JSON", tilesJSON);
-  tiles = tilesJSON.chapter_2.lesson_1;
+  chapterTiles = tilesJSON["chapter_"+chapter]
+  tiles = chapterTiles["lesson_"+lesson]
   console.log("Chapter 1, Lesson 1", tiles);
   tiles.forEach((tile) => {
     tileCount = tile.quantity;
@@ -43,7 +44,8 @@ fetch(
     return tilesTMP.json();
   })
   .then((tiles) => {
-    makeTiles(tiles, 1, 1);
+    tilesJSON = tiles
+    updateTiles()
   });
 
 /* makes element given as argument moveable*/
@@ -122,3 +124,14 @@ function findMoveables(className, divID) {
     makeMoveables(element.id, divID);
   });
 }
+
+function updateTiles(){
+  reset()
+  chapter = document.getElementById("chapterSelect").value
+  lesson = document.getElementById("lessonSelect").value
+  makeTiles(tilesJSON,chapter,lesson)
+}
+
+
+document.getElementById('chapterSelect').addEventListener('change',updateTiles)
+document.getElementById('lessonSelect').addEventListener('change',updateTiles)
