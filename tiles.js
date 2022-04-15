@@ -1,9 +1,31 @@
 /*Create tiles based on lesson*/
-function makeTiles(tilesJSON, chapter, lesson) {
+function makeTiles(tilesJSON, book, lesson) {
   console.log("The JSON", tilesJSON);
-  chapterTiles = tilesJSON[chapter]
-  tiles = chapterTiles[lesson]
-  console.log("Chapter 1, Lesson 1", tiles);
+  bookTiles = tilesJSON[book]
+  tiles = bookTiles[lesson]
+  tiles.sort((a,b) => {
+    let va = a.value.toLowerCase()
+    vb = b.value.toLowerCase()
+    if (va < vb){
+      return -1
+    }
+    if (va > vb){
+      return 1
+    }
+    return 0
+  })
+  tiles.sort((a,b) => {
+    let va = a.color.toLowerCase()
+    vb = b.color.toLowerCase()
+    if (va < vb){
+      return 1
+    }
+    if (va > vb){
+      return -1
+    }
+    return 0
+  })
+  console.log("book 1, Lesson 1", tiles);
   tiles.forEach((tile) => {
     tileCount = tile.quantity;
     tempcount = 0;
@@ -24,7 +46,7 @@ function makeTiles(tilesJSON, chapter, lesson) {
           tile.color +
           ";"
       );
-      newtile.innerHTML = tile.value;
+      newtile.innerHTML = tile.value.toLowerCase();
       whiteboard.appendChild(newtile);
       tempcount = tempcount + 1;
     }
@@ -36,17 +58,6 @@ function makeTiles(tilesJSON, chapter, lesson) {
 function reset(){
   document.getElementById('tiles').innerHTML = ''
 }
-
-fetch(
-  "https://raw.githubusercontent.com/nullparrot/tiles_content/main/tiles_content.json"
-)
-  .then((tilesTMP) => {
-    return tilesTMP.json();
-  })
-  .then((tiles) => {
-    tilesJSON = tiles
-    updateTiles()
-  });
 
 /* makes element given as argument moveable*/
 function makeMoveables(moveID, divID) {
@@ -127,11 +138,52 @@ function findMoveables(className, divID) {
 
 function updateTiles(){
   reset()
-  chapter = document.getElementById("chapterSelect").value
+  book = document.getElementById("bookSelect").value
   lesson = document.getElementById("lessonSelect").value
-  makeTiles(tilesJSON,chapter,lesson)
+  makeTiles(tilesJSON,book,lesson)
+}
+
+function updateLessonSelect(){
+  book = document.getElementById("bookSelect").value
+  lessonMenu = document.getElementById("lessonSelect")
+  lessonMenu.innerHTML = ""
+  lessons = tilesJSON[book]
+  lessonKeys  = Object.keys(lessons)
+  lessonKeys.forEach((lesson) => {
+    option = document.createElement("option")
+    option.setAttribute("value",lesson)
+    option.innerHTML = "Lesson "+lesson
+    lessonMenu.appendChild(option)
+  })
+}
+
+function updateBookSelect(){
+  bookMenu = document.getElementById("bookSelect")
+  bookMenu.innerHTML = ""
+  bookKeys  = Object.keys(tilesJSON)
+  bookKeys.forEach((book) => {
+    option = document.createElement("option")
+    option.setAttribute("value",book)
+    option.innerHTML = "Book "+book
+    bookMenu.appendChild(option)
+  })
+  updateLessonSelect()
 }
 
 
-document.getElementById('chapterSelect').addEventListener('change',updateTiles)
+
+fetch(
+  "tiles_content.json"
+)
+  .then((tilesTMP) => {
+    return tilesTMP.json();
+  })
+  .then((tiles) => {
+    tilesJSON = tiles
+    updateBookSelect()
+    updateTiles()
+  });
+
+document.getElementById('bookSelect').addEventListener('change',updateLessonSelect)
+document.getElementById('bookSelect').addEventListener('change',updateTiles)
 document.getElementById('lessonSelect').addEventListener('change',updateTiles)
