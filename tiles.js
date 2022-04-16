@@ -26,6 +26,8 @@ function makeTiles(tilesJSON, book, lesson) {
     return 0
   })
   console.log("book 1, Lesson 1", tiles);
+  placementX = 5
+  placementY = 5
   tiles.forEach((tile) => {
     tileCount = tile.quantity;
     tempcount = 0;
@@ -48,8 +50,15 @@ function makeTiles(tilesJSON, book, lesson) {
       );
       newtile.innerHTML = tile.value.toLowerCase();
       whiteboard.appendChild(newtile);
+      if (newtile.offsetWidth+5+placementX > screen.width){
+        placementX = 5
+        placementY = placementY+newtile.offsetHeight+5
+      }
+      newtile.style.left = placementX + "px";
+      newtile.style.top = placementY + "px";
       tempcount = tempcount + 1;
     }
+    placementX = placementX +newtile.offsetWidth+5
   });
   /*make iems with class "dragMe" moveable*/
   findMoveables("dragMe", "tiles");
