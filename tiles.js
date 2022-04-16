@@ -1,9 +1,7 @@
 /* Functions */
 
 /*Create tiles based on lesson*/
-function makeTiles(tilesJSON, level, lesson) {
-  levelTiles = tilesJSON[level]
-  tiles = levelTiles[lesson]
+function makeTiles(tiles) {
   tiles.sort((a,b) => {
     let va = a.value.toLowerCase()
     vb = b.value.toLowerCase()
@@ -148,7 +146,13 @@ function updateTiles(){
   reset()
   level = document.getElementById("levelSelect").value
   lesson = document.getElementById("lessonSelect").value
-  makeTiles(tilesJSON,level,lesson)
+  levelTiles = tilesJSON[level]
+  tiles = levelTiles[lesson]
+  lessonTiles = tiles.filter(tile => tile.newtile)
+  tiles = tiles.filter(tile => tile.newtile == false)
+  lessonTilesProgress = 0
+  lessonTilesProgressMax = parseInt(lessonTiles.length)
+  makeTiles(tiles)
 }
 
 function updateLessonSelect(){
@@ -179,22 +183,10 @@ function updateLevelSelect(){
 }
 
 function nextButton(){
-  lessons = tilesJSON[level]
-  lessonKeys  = Object.keys(lessons)
-  levelKeys  = Object.keys(tilesJSON)
-  levelSelect = document.getElementById("levelSelect")
-  lessonSelect = document.getElementById("lessonSelect")
-  if (lesson >= lessonKeys.length){
-    if (level >= levelKeys.length){
-      updateTiles()
-    } else{
-      levelSelect.selectedIndex = parseInt(levelSelect.value)
-      updateLessonSelect()
-      updateTiles()
-    }
-  } else{
-    lessonSelect.selectedIndex = parseInt(lessonSelect.value)
-    updateTiles()
+  if(lessonTilesProgress < lessonTilesProgressMax){
+    tiles.push(lessonTiles[lessonTilesProgress])
+    lessonTilesProgress += 1
+    makeTiles(tiles)
   }
 }
 
@@ -215,6 +207,10 @@ function fullscreen(){
 
 level = 0
 lesson = 0
+lessonTilesProgress = 0
+lessonTilesProgressMax = 0
+lessonTiles = {}
+tiles = {}
 full = false
 fetch(
   "tiles_content.json"
