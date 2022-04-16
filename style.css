@@ -13,7 +13,7 @@ body {
 
 #menu{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 60px 1fr 1fr 60px;
   margin: 0;
   width: 100%;
   position: absolute;
@@ -22,6 +22,12 @@ body {
   right: 0;
 }
 
+#menu button{
+  font-size: 20px;
+  line-height: 20px;
+  height: 30px;
+  margin: 0;
+}
 
 #tiles {
   position: absolute;

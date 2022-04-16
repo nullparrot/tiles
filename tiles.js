@@ -1,6 +1,7 @@
+/* Functions */
+
 /*Create tiles based on lesson*/
 function makeTiles(tilesJSON, book, lesson) {
-  console.log("The JSON", tilesJSON);
   bookTiles = tilesJSON[book]
   tiles = bookTiles[lesson]
   tiles.sort((a,b) => {
@@ -25,7 +26,6 @@ function makeTiles(tilesJSON, book, lesson) {
     }
     return 0
   })
-  console.log("book 1, Lesson 1", tiles);
   placementX = 5
   placementY = 5
   tiles.forEach((tile) => {
@@ -64,6 +64,7 @@ function makeTiles(tilesJSON, book, lesson) {
   findMoveables("dragMe", "tiles");
 }
 
+/* Clears tiles off board*/
 function reset(){
   document.getElementById('tiles').innerHTML = ''
 }
@@ -138,9 +139,7 @@ function makeMoveables(moveID, divID) {
 function findMoveables(className, divID) {
   let moveIDcollection = document.getElementsByClassName(className);
   let moveIDarray = Array.from(moveIDcollection);
-  console.log("List of ID's", moveIDarray);
   moveIDarray.forEach((element) => {
-    console.log("Here's an ID", element.id);
     makeMoveables(element.id, divID);
   });
 }
@@ -179,7 +178,31 @@ function updateBookSelect(){
   updateLessonSelect()
 }
 
+function nextButton(){
+  lessons = tilesJSON[book]
+  lessonKeys  = Object.keys(lessons)
+  bookKeys  = Object.keys(tilesJSON)
+  bookSelect = document.getElementById("bookSelect")
+  lessonSelect = document.getElementById("lessonSelect")
+  if (lesson >= lessonKeys.length){
+    if (book >= bookKeys.length){
+      updateTiles()
+    } else{
+      bookSelect.selectedIndex = parseInt(bookSelect.value)
+      updateLessonSelect()
+      updateTiles()
+    }
+  } else{
+    lessonSelect.selectedIndex = parseInt(lessonSelect.value)
+    updateTiles()
+  }
+}
 
+
+/* Main program */
+
+book = 0
+lesson = 0
 
 fetch(
   "tiles_content.json"
@@ -197,3 +220,5 @@ document.getElementById('bookSelect').addEventListener('change',updateLessonSele
 document.getElementById('bookSelect').addEventListener('change',updateTiles)
 document.getElementById('lessonSelect').addEventListener('change',updateTiles)
 window.addEventListener('resize',updateTiles)
+document.getElementById("reset").addEventListener("click",updateTiles)
+document.getElementById("next").addEventListener("click",nextButton)
