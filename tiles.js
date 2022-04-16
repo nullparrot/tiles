@@ -28,7 +28,6 @@ function makeTiles(tilesJSON, level, lesson) {
   })
   placementX = 5
   placementY = 5
-  lastsort = 0
   tiles.forEach((tile) => {
     tileCount = tile.quantity;
     tempcount = 0;
@@ -51,7 +50,7 @@ function makeTiles(tilesJSON, level, lesson) {
       );
       newtile.innerHTML = tile.value.toLowerCase();
       whiteboard.appendChild(newtile);
-      if (newtile.offsetWidth+5+placementX > screen.width || tile.sortkey > lastsort){
+      if (newtile.offsetWidth+5+placementX > screen.width){
         placementX = 5
         placementY = placementY+newtile.offsetHeight+5
       }
@@ -59,7 +58,6 @@ function makeTiles(tilesJSON, level, lesson) {
       newtile.style.top = placementY + "px";
       tempcount = tempcount + 1;
     }
-    lastsort = tile.sortkey
     placementX = placementX +newtile.offsetWidth+5
   });
   /*make iems with class "dragMe" moveable*/
