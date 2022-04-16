@@ -202,9 +202,11 @@ function fullscreen(){
   content = document.getElementById('content')
   if (document.fullscreenEnabled && full == false){
     content.requestFullscreen()
+    document.getElementById("fullscreen").innerHTML = "Min"
     full = true
   } else{
     document.exitFullscreen()
+    document.getElementById("fullscreen").innerHTML = "Max"
     full = false
   }
 }
