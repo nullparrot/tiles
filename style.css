@@ -13,7 +13,7 @@ body {
 
 #menu{
   display: grid;
-  grid-template-columns: 60px 1fr 1fr 60px;
+  grid-template-columns: 60px 1fr 1fr 60px 60px;
   margin: 0;
   width: 100%;
   position: absolute;

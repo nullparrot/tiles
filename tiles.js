@@ -198,12 +198,22 @@ function nextButton(){
   }
 }
 
+function fullscreen(){
+  content = document.getElementById('content')
+  if (document.fullscreenEnabled && full == false){
+    content.requestFullscreen()
+    full = true
+  } else{
+    document.exitFullscreen()
+    full = false
+  }
+}
 
 /* Main program */
 
 level = 0
 lesson = 0
-
+full = false
 fetch(
   "tiles_content.json"
 )
@@ -222,3 +232,4 @@ document.getElementById('lessonSelect').addEventListener('change',updateTiles)
 window.addEventListener('resize',updateTiles)
 document.getElementById("reset").addEventListener("click",updateTiles)
 document.getElementById("next").addEventListener("click",nextButton)
+document.getElementById("fullscreen").addEventListener('click',fullscreen)
