@@ -3,6 +3,11 @@
 /*Create tiles based on lesson*/
 function makeTiles(tiles) {
   reset()
+  if(lessonTilesProgress < lessonTilesProgressMax){
+    nextButton.innerHTML = "Add "+lessonTiles[0].value
+  } else{
+    nextButton.innerHTML = ""
+  }
   tiles.sort((a,b) => {
     let va = a.value.toLowerCase()
     vb = b.value.toLowerCase()
@@ -182,11 +187,12 @@ function updateLevelSelect(){
   updateLessonSelect()
 }
 
-function nextButton(){
+function nextTile(){
   if(lessonTilesProgress < lessonTilesProgressMax){
-    tiles.push(lessonTiles[lessonTilesProgress])
+    tiles.push(lessonTiles.shift())
     lessonTilesProgress += 1
     makeTiles(tiles)
+    document.getElementById("next").innerHTML = "Add "+lessonTiles[0].value
   }
 }
 
@@ -216,6 +222,7 @@ lessonTilesProgressMax = 0
 lessonTiles = {}
 tiles = {}
 full = false
+nextButton = document.getElementById("next")
 fetch(
   "tiles_content.json"
 )
@@ -233,6 +240,6 @@ document.getElementById('levelSelect').addEventListener('change',updateTiles)
 document.getElementById('lessonSelect').addEventListener('change',updateTiles)
 window.addEventListener('resize',updateTiles)
 document.getElementById("reset").addEventListener("click",updateTiles)
-document.getElementById("next").addEventListener("click",nextButton)
+nextButton.addEventListener("click",nextTile)
 document.getElementById("fullscreen").addEventListener('click',fullscreen)
 document.getElementById("wash").addEventListener("click",wash)
