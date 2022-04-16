@@ -196,3 +196,4 @@ fetch(
 document.getElementById('bookSelect').addEventListener('change',updateLessonSelect)
 document.getElementById('bookSelect').addEventListener('change',updateTiles)
 document.getElementById('lessonSelect').addEventListener('change',updateTiles)
+window.addEventListener('resize',updateTiles)
