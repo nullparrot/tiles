@@ -876,5 +876,2773 @@
         "newtile": true
       }
     ]
+  },
+  "3": {
+    "1": [
+      {
+        "value": "A",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "B",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "F",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "M",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "P",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "S",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "T",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "I",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "C",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "G",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "H",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "L",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "N",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "R",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "O",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "D",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "J",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "K",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "V",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Z",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "U",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "W",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "X",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Y",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "QU",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "E",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "TH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "SH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "CH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "quantity": 1,
+        "color": "CornflowerBlue",
+        "value": "CK",
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "WH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      }
+    ],
+    "2": [
+      {
+        "value": "A",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "B",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "F",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "M",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "P",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "S",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "T",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "I",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "C",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "G",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "H",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "L",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "N",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "R",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "O",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "D",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "J",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "K",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "V",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Z",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "U",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "W",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "X",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Y",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "QU",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "E",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "TH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "SH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "CH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "quantity": 1,
+        "color": "CornflowerBlue",
+        "value": "CK",
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "WH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      }
+    ],
+    "3": [
+      {
+        "value": "A",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "B",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "F",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "M",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "P",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "S",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "T",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "I",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "C",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "G",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "H",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "L",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "N",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "R",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "O",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "D",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "J",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "K",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "V",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Z",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "U",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "W",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "X",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Y",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "QU",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "E",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "TH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "SH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "CH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "quantity": 1,
+        "color": "CornflowerBlue",
+        "value": "CK",
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "WH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      }
+    ],
+    "4": [
+      {
+        "value": "A",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "B",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "F",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "M",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "P",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "S",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "T",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "I",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "C",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "G",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "H",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "L",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "N",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "R",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "O",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "D",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "J",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "K",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "V",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Z",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "U",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "W",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "X",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Y",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "QU",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "E",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "TH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "SH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "CH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "quantity": 1,
+        "color": "CornflowerBlue",
+        "value": "CK",
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "WH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      }
+    ],
+    "5": [
+      {
+        "value": "A",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "B",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "F",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "M",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "P",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "S",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "T",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "I",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "C",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "G",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "H",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "L",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "N",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "R",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "O",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "D",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "J",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "K",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "V",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Z",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "U",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "W",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "X",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Y",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "QU",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "E",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "TH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "SH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "CH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "quantity": 1,
+        "color": "CornflowerBlue",
+        "value": "CK",
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "WH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "ALL",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      }
+    ],
+    "6": [
+      {
+        "value": "A",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "B",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "F",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "M",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "P",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "S",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "T",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "I",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "C",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "G",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "H",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "L",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "N",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "R",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "O",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "D",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "J",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "K",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "V",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Z",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "U",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "W",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "X",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Y",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "QU",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "E",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "TH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "SH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "CH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "quantity": 1,
+        "color": "CornflowerBlue",
+        "value": "CK",
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "WH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "ALL",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      }
+    ],
+    "7": [
+      {
+        "value": "A",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "B",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "F",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "M",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "P",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "S",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "T",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "I",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "C",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "G",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "H",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "L",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "N",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "R",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "O",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "D",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "J",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "K",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "V",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Z",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "U",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "W",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "X",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Y",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "QU",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "E",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "TH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "SH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "CH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "quantity": 1,
+        "color": "CornflowerBlue",
+        "value": "CK",
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "WH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "ALL",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      }
+    ],
+    "8": [
+      {
+        "value": "A",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "B",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "F",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "M",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "P",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "S",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "T",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "I",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "C",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "G",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "H",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "L",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "N",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "R",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "O",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "D",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "J",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "K",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "V",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Z",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "U",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "W",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "X",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Y",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "QU",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "E",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "TH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "SH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "CH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "quantity": 1,
+        "color": "CornflowerBlue",
+        "value": "CK",
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "WH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "ALL",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ANG",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      },
+      {
+        "value": "ING",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      },
+      {
+        "value": "ONG",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      },
+      {
+        "value": "UNG",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      },
+      {
+        "value": "ANK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      },
+      {
+        "value": "INK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      },
+      {
+        "value": "ONK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      },
+      {
+        "value": "UNK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      }
+    ],
+    "9": [
+      {
+        "value": "A",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "B",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "F",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "M",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "P",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "S",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "T",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "I",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "C",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "G",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "H",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "L",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "N",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "R",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "O",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "D",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "J",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "K",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "V",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Z",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "U",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "W",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "X",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Y",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "QU",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "E",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "TH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "SH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "CH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "quantity": 1,
+        "color": "CornflowerBlue",
+        "value": "CK",
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "WH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "ALL",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ANG",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ING",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ONG",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "UNG",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ANK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "INK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ONK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "UNK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "TCH",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      }
+    ],
+    "10": [
+      {
+        "value": "A",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "B",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "F",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "M",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "P",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "S",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "T",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "I",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "C",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "G",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "H",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "L",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "N",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "R",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "O",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "D",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "J",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "K",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "V",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Z",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "U",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "W",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "X",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Y",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "QU",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "E",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "TH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "SH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "CH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "quantity": 1,
+        "color": "CornflowerBlue",
+        "value": "CK",
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "WH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "ALL",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ANG",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ING",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ONG",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "UNG",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ANK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "INK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ONK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "UNK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "TCH",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "'",
+        "color": "SeaGreen",
+        "quantity": 1,
+        "sortkey": 3,
+        "newtile": true
+      }
+    ],
+    "11": [
+      {
+        "value": "A",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "B",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "F",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "M",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "P",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "S",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "T",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "I",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "C",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "G",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "H",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "L",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "N",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "R",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "O",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "D",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "J",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "K",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "V",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Z",
+        "color": "CornflowerBlue",
+        "quantity": 2,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "U",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "W",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "X",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "Y",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "QU",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "E",
+        "color": "Gold",
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
+      },
+      {
+        "value": "TH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "SH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "CH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "quantity": 1,
+        "color": "CornflowerBlue",
+        "value": "CK",
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "WH",
+        "color": "CornflowerBlue",
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": false
+      },
+      {
+        "value": "ALL",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ANG",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ING",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ONG",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "UNG",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ANK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "INK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "ONK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "UNK",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "TCH",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": false
+      },
+      {
+        "value": "'",
+        "color": "SeaGreen",
+        "quantity": 1,
+        "sortkey": 3,
+        "newtile": false
+      },
+      {
+        "value": "OLL",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      },
+      {
+        "value": "OLD",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      },
+      {
+        "value": "OLT",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      },
+      {
+        "value": "OST",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      },
+      {
+        "value": "ILD",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      },
+      {
+        "value": "IND",
+        "color": "FireBrick",
+        "quantity": 1,
+        "sortkey": 2,
+        "newtile": true
+      }
+    ]
   }
 }
