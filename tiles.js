@@ -203,6 +203,10 @@ function fullscreen(){
   }
 }
 
+function wash(){
+  makeTiles(tiles)
+}
+
 /* Main program */
 
 level = 0
@@ -231,3 +235,4 @@ window.addEventListener('resize',updateTiles)
 document.getElementById("reset").addEventListener("click",updateTiles)
 document.getElementById("next").addEventListener("click",nextButton)
 document.getElementById("fullscreen").addEventListener('click',fullscreen)
+document.getElementById("wash").addEventListener("click",wash)
