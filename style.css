@@ -34,10 +34,10 @@ body {
 }
 
 .dragMe {
-  min-width: 80px;
+  min-width: 70px;
   max-width: fit-content;
   border-radius: 10px;
-  height: 80px;
+  height: 70px;
   touch-action: none;
   user-select: none;
   font-size: 60px;
@@ -46,6 +46,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  line-height: 70px;
 }
 .dragMe:active {
   border-color: rgba(168, 218, 220, 1);
@@ -63,6 +64,7 @@ body {
         height: 50px;
         font-size: 40px;
         border-radius: 5px;
+        line-height: 50px;
 
       }
   /* end of media query */ 
