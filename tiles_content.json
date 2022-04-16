@@ -4,135 +4,160 @@
       {
         "value": "",
         "color": "FireBrick",
-        "quantity": 3
-      },
-      {
-        "value": "",
-        "color": "CornflowerBlue",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
       },
       {
         "value": "",
         "color": "DarkOrange",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
       },
       {
         "value": "",
         "color": "Gold",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
       },
       {
         "value": "",
         "color": "SeaGreen",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
+      },
+      {
+        "value": "",
+        "color": "CornflowerBlue",
+        "quantity": 3,
+        "sortkey": 0
       }
     ],
     "2": [
       {
         "value": "",
         "color": "FireBrick",
-        "quantity": 3
-      },
-      {
-        "value": "",
-        "color": "CornflowerBlue",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
       },
       {
         "value": "",
         "color": "DarkOrange",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
       },
       {
         "value": "",
         "color": "Gold",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
       },
       {
         "value": "",
         "color": "SeaGreen",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
+      },
+      {
+        "value": "",
+        "color": "CornflowerBlue",
+        "quantity": 3,
+        "sortkey": 0
       }
     ],
     "3": [
       {
         "value": "",
         "color": "FireBrick",
-        "quantity": 3
-      },
-      {
-        "value": "",
-        "color": "CornflowerBlue",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
       },
       {
         "value": "",
         "color": "DarkOrange",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
       },
       {
         "value": "",
         "color": "Gold",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
       },
       {
         "value": "",
         "color": "SeaGreen",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
+      },
+      {
+        "value": "",
+        "color": "CornflowerBlue",
+        "quantity": 3,
+        "sortkey": 0
       }
     ],
     "4": [
       {
         "value": "",
         "color": "FireBrick",
-        "quantity": 3
-      },
-      {
-        "value": "",
-        "color": "CornflowerBlue",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
       },
       {
         "value": "",
         "color": "DarkOrange",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
       },
       {
         "value": "",
         "color": "Gold",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
       },
       {
         "value": "",
         "color": "SeaGreen",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
+      },
+      {
+        "value": "",
+        "color": "CornflowerBlue",
+        "quantity": 3,
+        "sortkey": 0
       }
     ],
     "5": [
       {
         "value": "",
         "color": "FireBrick",
-        "quantity": 3
-      },
-      {
-        "value": "",
-        "color": "CornflowerBlue",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
       },
       {
         "value": "",
         "color": "DarkOrange",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
       },
       {
         "value": "",
         "color": "Gold",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
       },
       {
         "value": "",
         "color": "SeaGreen",
-        "quantity": 3
+        "quantity": 3,
+        "sortkey": 0
+      },
+      {
+        "value": "",
+        "color": "CornflowerBlue",
+        "quantity": 3,
+        "sortkey": 0
       }
     ]
   },
@@ -141,495 +166,689 @@
       {
         "value": "A",
         "color": "Gold",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "B",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "F",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "M",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "P",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "S",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "T",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       }
     ],
     "2": [
       {
         "value": "A",
         "color": "Gold",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "B",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "F",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "M",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "P",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "S",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "T",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "I",
         "color": "Gold",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "C",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "G",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "H",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "L",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "N",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "R",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       }
     ],
     "3": [
       {
         "value": "A",
         "color": "Gold",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "B",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "F",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "M",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "P",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "S",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "T",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "I",
         "color": "Gold",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "C",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "G",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "H",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "L",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "N",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "R",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "O",
         "color": "Gold",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "D",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "J",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "K",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "V",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "Z",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       }
     ],
     "4": [
       {
         "value": "A",
         "color": "Gold",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "B",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "F",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "M",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "P",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "S",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "T",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "I",
         "color": "Gold",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "C",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "G",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "H",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "L",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "N",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "R",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "O",
         "color": "Gold",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "D",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "J",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "K",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "V",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "Z",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "U",
         "color": "Gold",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "W",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "X",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "Y",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "QU",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       }
     ],
     "5": [
       {
         "value": "A",
         "color": "Gold",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "B",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "F",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "M",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "P",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "S",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "T",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "I",
         "color": "Gold",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "C",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "G",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "H",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "L",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "N",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "R",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "O",
         "color": "Gold",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "D",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "J",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "K",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "V",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "Z",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "U",
         "color": "Gold",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "W",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "X",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "Y",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "QU",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": false
       },
       {
         "value": "E",
         "color": "Gold",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 0,
+        "newtile": true
       },
       {
         "value": "CH",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": true
       },
       {
         "quantity": 1,
         "color": "CornflowerBlue",
-        "value": "CK"
+        "value": "CK",
+        "sortkey": 1,
+        "newtile": true
       },
       {
         "value": "SH",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": true
       },
       {
         "quantity": 1,
         "color": "CornflowerBlue",
-        "value": "TH"
+        "value": "TH",
+        "sortkey": 1,
+        "newtile": true
       },
       {
         "value": "WH",
         "color": "CornflowerBlue",
-        "quantity": 1
+        "quantity": 1,
+        "sortkey": 1,
+        "newtile": true
       }
     ]
   }

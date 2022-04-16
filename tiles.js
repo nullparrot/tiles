@@ -1,9 +1,9 @@
 /* Functions */
 
 /*Create tiles based on lesson*/
-function makeTiles(tilesJSON, book, lesson) {
-  bookTiles = tilesJSON[book]
-  tiles = bookTiles[lesson]
+function makeTiles(tilesJSON, level, lesson) {
+  levelTiles = tilesJSON[level]
+  tiles = levelTiles[lesson]
   tiles.sort((a,b) => {
     let va = a.value.toLowerCase()
     vb = b.value.toLowerCase()
@@ -16,13 +16,13 @@ function makeTiles(tilesJSON, book, lesson) {
     return 0
   })
   tiles.sort((a,b) => {
-    let va = a.color.toLowerCase()
-    vb = b.color.toLowerCase()
+    let va = a.sortkey
+    vb = b.sortkey
     if (va < vb){
-      return 1
+      return -1
     }
     if (va > vb){
-      return -1
+      return 1
     }
     return 0
   })
@@ -146,16 +146,16 @@ function findMoveables(className, divID) {
 
 function updateTiles(){
   reset()
-  book = document.getElementById("bookSelect").value
+  level = document.getElementById("levelSelect").value
   lesson = document.getElementById("lessonSelect").value
-  makeTiles(tilesJSON,book,lesson)
+  makeTiles(tilesJSON,level,lesson)
 }
 
 function updateLessonSelect(){
-  book = document.getElementById("bookSelect").value
+  level = document.getElementById("levelSelect").value
   lessonMenu = document.getElementById("lessonSelect")
   lessonMenu.innerHTML = ""
-  lessons = tilesJSON[book]
+  lessons = tilesJSON[level]
   lessonKeys  = Object.keys(lessons)
   lessonKeys.forEach((lesson) => {
     option = document.createElement("option")
@@ -165,30 +165,30 @@ function updateLessonSelect(){
   })
 }
 
-function updateBookSelect(){
-  bookMenu = document.getElementById("bookSelect")
-  bookMenu.innerHTML = ""
-  bookKeys  = Object.keys(tilesJSON)
-  bookKeys.forEach((book) => {
+function updateLevelSelect(){
+  levelMenu = document.getElementById("levelSelect")
+  levelMenu.innerHTML = ""
+  levelKeys  = Object.keys(tilesJSON)
+  levelKeys.forEach((level) => {
     option = document.createElement("option")
-    option.setAttribute("value",book)
-    option.innerHTML = "Book "+book
-    bookMenu.appendChild(option)
+    option.setAttribute("value",level)
+    option.innerHTML = "Level "+level
+    levelMenu.appendChild(option)
   })
   updateLessonSelect()
 }
 
 function nextButton(){
-  lessons = tilesJSON[book]
+  lessons = tilesJSON[level]
   lessonKeys  = Object.keys(lessons)
-  bookKeys  = Object.keys(tilesJSON)
-  bookSelect = document.getElementById("bookSelect")
+  levelKeys  = Object.keys(tilesJSON)
+  levelSelect = document.getElementById("levelSelect")
   lessonSelect = document.getElementById("lessonSelect")
   if (lesson >= lessonKeys.length){
-    if (book >= bookKeys.length){
+    if (level >= levelKeys.length){
       updateTiles()
     } else{
-      bookSelect.selectedIndex = parseInt(bookSelect.value)
+      levelSelect.selectedIndex = parseInt(levelSelect.value)
       updateLessonSelect()
       updateTiles()
     }
@@ -201,7 +201,7 @@ function nextButton(){
 
 /* Main program */
 
-book = 0
+level = 0
 lesson = 0
 
 fetch(
@@ -212,12 +212,12 @@ fetch(
   })
   .then((tiles) => {
     tilesJSON = tiles
-    updateBookSelect()
+    updateLevelSelect()
     updateTiles()
   });
 
-document.getElementById('bookSelect').addEventListener('change',updateLessonSelect)
-document.getElementById('bookSelect').addEventListener('change',updateTiles)
+document.getElementById('levelSelect').addEventListener('change',updateLessonSelect)
+document.getElementById('levelSelect').addEventListener('change',updateTiles)
 document.getElementById('lessonSelect').addEventListener('change',updateTiles)
 window.addEventListener('resize',updateTiles)
 document.getElementById("reset").addEventListener("click",updateTiles)
