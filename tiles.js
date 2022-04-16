@@ -2,6 +2,7 @@
 
 /*Create tiles based on lesson*/
 function makeTiles(tiles) {
+  reset()
   tiles.sort((a,b) => {
     let va = a.value.toLowerCase()
     vb = b.value.toLowerCase()
@@ -143,7 +144,6 @@ function findMoveables(className, divID) {
 }
 
 function updateTiles(){
-  reset()
   level = document.getElementById("levelSelect").value
   lesson = document.getElementById("lessonSelect").value
   levelTiles = tilesJSON[level]
