@@ -3004,9 +3004,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": true
       }
     ],
@@ -3293,9 +3293,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -3589,9 +3589,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -3929,9 +3929,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -3986,7 +3986,7 @@
       {
         "value": "Y",
         "color": "Gold",
-        "quantity": 1,
+        "quantity": 2,
         "sortkey": 0,
         "newtile": true
       }
@@ -4274,9 +4274,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -4331,7 +4331,7 @@
       {
         "value": "Y",
         "color": "Gold",
-        "quantity": 1,
+        "quantity": 2,
         "sortkey": 0,
         "newtile": false
       }
@@ -4619,9 +4619,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -4676,7 +4676,7 @@
       {
         "value": "Y",
         "color": "Gold",
-        "quantity": 1,
+        "quantity": 2,
         "sortkey": 0,
         "newtile": false
       }
@@ -4964,9 +4964,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -5021,7 +5021,7 @@
       {
         "value": "Y",
         "color": "Gold",
-        "quantity": 1,
+        "quantity": 2,
         "sortkey": 0,
         "newtile": false
       }
@@ -5309,9 +5309,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -5366,7 +5366,7 @@
       {
         "value": "Y",
         "color": "Gold",
-        "quantity": 1,
+        "quantity": 2,
         "sortkey": 0,
         "newtile": false
       }
@@ -5654,9 +5654,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -5711,7 +5711,7 @@
       {
         "value": "Y",
         "color": "Gold",
-        "quantity": 1,
+        "quantity": 2,
         "sortkey": 0,
         "newtile": false
       }
@@ -5999,9 +5999,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -6056,7 +6056,7 @@
       {
         "value": "Y",
         "color": "Gold",
-        "quantity": 1,
+        "quantity": 2,
         "sortkey": 0,
         "newtile": false
       }
@@ -6344,9 +6344,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -6401,7 +6401,7 @@
       {
         "value": "Y",
         "color": "Gold",
-        "quantity": 1,
+        "quantity": 2,
         "sortkey": 0,
         "newtile": false
       }
@@ -6689,9 +6689,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -6746,7 +6746,7 @@
       {
         "value": "Y",
         "color": "Gold",
-        "quantity": 1,
+        "quantity": 2,
         "sortkey": 0,
         "newtile": false
       }
@@ -7034,9 +7034,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -7091,7 +7091,7 @@
       {
         "value": "Y",
         "color": "Gold",
-        "quantity": 1,
+        "quantity": 2,
         "sortkey": 0,
         "newtile": false
       }
@@ -7379,9 +7379,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -7436,7 +7436,7 @@
       {
         "value": "Y",
         "color": "Gold",
-        "quantity": 1,
+        "quantity": 2,
         "sortkey": 0,
         "newtile": false
       }
@@ -7724,9 +7724,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -7781,7 +7781,7 @@
       {
         "value": "Y",
         "color": "Gold",
-        "quantity": 1,
+        "quantity": 2,
         "sortkey": 0,
         "newtile": false
       },
@@ -8083,9 +8083,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -8140,7 +8140,7 @@
       {
         "value": "Y",
         "color": "Gold",
-        "quantity": 1,
+        "quantity": 2,
         "sortkey": 0,
         "newtile": false
       },
@@ -8470,9 +8470,9 @@
       },
       {
         "value": "TCH",
-        "color": "FireBrick",
+        "color": "CornflowerBlue",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 1,
         "newtile": false
       },
       {
@@ -8527,7 +8527,7 @@
       {
         "value": "Y",
         "color": "Gold",
-        "quantity": 1,
+        "quantity": 2,
         "sortkey": 0,
         "newtile": false
       },
