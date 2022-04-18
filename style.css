@@ -82,12 +82,12 @@ button img{
 @media screen and (max-width: 450px) and (orientation:portrait){ 
   /* beginning of media query */
       .dragMe{
-        min-width: 50px;
+        min-width: var(--mobile-tile-size);
         max-width: fit-content;
-        height: 50px;
-        font-size: 40px;
-        border-radius: 5px;
-        line-height: 50px;
+        height: var(--mobile-tile-size);
+        font-size: var(--mobile-tile-font-size);
+        border-radius: var(--mobile-tile-radius);
+        line-height: var(--mobile-tile-line-height);
 
       }
       #menu{
