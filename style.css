@@ -5,10 +5,10 @@
   --tile-radius: calc(var(--tile-size)*.14);
   --tile-font-size: var(--tile-size);
   --tile-line-height: calc(var(--tile-size)*.94);
-  --mobile-tile-size: calc(var(--tile-size)*.75);
-  --mobile-tile-radius: calc(var(--mobile-tile-size)*.7);
-  --mobile-tile-font-size: calc(var(--mobile-tile-size)*.7);
-  --mobile-tile-line-height: calc(var(--mobile-tile-size)*.7);
+  --mobile-tile-size: calc(var(--tile-size)*.5);
+  --mobile-tile-radius: calc(var(--mobile-tile-size)*.14);
+  --mobile-tile-font-size: var(--mobile-tile-size);
+  --mobile-tile-line-height: calc(var(--mobile-tile-size)*.94);
 }
 
 
@@ -124,3 +124,18 @@ button img{
       }
   /* end of media query */ 
   } 
+
+
+  @media screen and (max-height: 450px){ 
+    /* beginning of media query */
+        .dragMe{
+          min-width: var(--mobile-tile-size);
+          max-width: fit-content;
+          height: var(--mobile-tile-size);
+          font-size: var(--mobile-tile-font-size);
+          border-radius: var(--mobile-tile-radius);
+          line-height: var(--mobile-tile-line-height);
+  
+        }
+    /* end of media query */ 
+    } 
