@@ -1,4 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+:root {
+  --tile-size: 50px;
+  --tile-radius: calc(var(--tile-size)*.14);
+  --tile-font-size: var(--tile-size);
+  --tile-line-height: calc(var(--tile-size)*.94);
+  --mobile-tile-size: calc(var(--tile-size)*.75);
+  --mobile-tile-radius: calc(var(--mobile-tile-size)*.7);
+  --mobile-tile-font-size: calc(var(--mobile-tile-size)*.7);
+  --mobile-tile-line-height: calc(var(--mobile-tile-size)*.7);
+}
+
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -40,19 +53,19 @@ body {
 }
 
 .dragMe {
-  min-width: 70px;
+  min-width: var(--tile-size);
   max-width: fit-content;
-  border-radius: 10px;
-  height: 70px;
+  border-radius: var(--tile-radius);
+  height: var(--tile-size);
   touch-action: none;
   user-select: none;
-  font-size: 60px;
+  font-size: var(--tile-font-size);
   text-align: center;
   margin: 0;
   position: absolute;
   top: 0;
   left: 0;
-  line-height: 70px;
+  line-height: var(--tile-line-height);
 }
 .dragMe:active {
   border-color: rgba(168, 218, 220, 1);
