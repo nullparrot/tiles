@@ -2668,56 +2668,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": true
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": true
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": true
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": true
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": true
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": true
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": true
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": true
       }
     ],
@@ -2950,56 +2950,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -3239,56 +3239,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -3302,7 +3302,7 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": true
       }
     ],
@@ -3535,56 +3535,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -3598,49 +3598,49 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": false
       },
       {
         "value": "OLL",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": true
       },
       {
         "value": "OLD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": true
       },
       {
         "value": "OLT",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": true
       },
       {
         "value": "OST",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": true
       },
       {
         "value": "ILD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": true
       },
       {
         "value": "IND",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": true
       }
     ]
@@ -3875,56 +3875,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -3938,49 +3938,49 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": false
       },
       {
         "value": "OLL",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLT",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OST",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "ILD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
         "value": "IND",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
@@ -4220,56 +4220,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -4283,49 +4283,49 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": false
       },
       {
         "value": "OLL",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLT",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OST",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "ILD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
         "value": "IND",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
@@ -4565,56 +4565,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -4628,49 +4628,49 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": false
       },
       {
         "value": "OLL",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLT",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OST",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "ILD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
         "value": "IND",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
@@ -4910,56 +4910,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -4973,49 +4973,49 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": false
       },
       {
         "value": "OLL",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLT",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OST",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "ILD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
         "value": "IND",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
@@ -5255,56 +5255,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -5318,49 +5318,49 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": false
       },
       {
         "value": "OLL",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLT",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OST",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "ILD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
         "value": "IND",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
@@ -5600,56 +5600,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -5663,49 +5663,49 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": false
       },
       {
         "value": "OLL",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLT",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OST",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "ILD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
         "value": "IND",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
@@ -5945,56 +5945,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -6008,49 +6008,49 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": false
       },
       {
         "value": "OLL",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLT",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OST",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "ILD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
         "value": "IND",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
@@ -6290,56 +6290,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -6353,49 +6353,49 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": false
       },
       {
         "value": "OLL",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLT",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OST",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "ILD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
         "value": "IND",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
@@ -6635,56 +6635,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -6698,49 +6698,49 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": false
       },
       {
         "value": "OLL",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLT",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OST",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "ILD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
         "value": "IND",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
@@ -6980,56 +6980,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -7043,49 +7043,49 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": false
       },
       {
         "value": "OLL",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLT",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OST",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "ILD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
         "value": "IND",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
@@ -7325,56 +7325,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -7388,49 +7388,49 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": false
       },
       {
         "value": "OLL",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLT",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OST",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "ILD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
         "value": "IND",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
@@ -7670,56 +7670,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -7733,49 +7733,49 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": false
       },
       {
         "value": "OLL",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLT",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OST",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "ILD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
         "value": "IND",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
@@ -7789,14 +7789,14 @@
         "value": "AY",
         "color": "Gold",
         "quantity": 1,
-        "sortkey": 4,
+        "sortkey": 8,
         "newtile": true
       },
       {
         "value": "EE",
         "color": "Gold",
         "quantity": 1,
-        "sortkey": 4,
+        "sortkey": 8,
         "newtile": true
       }
     ],
@@ -8029,56 +8029,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -8092,49 +8092,49 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": false
       },
       {
         "value": "OLL",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLT",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OST",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "ILD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
         "value": "IND",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
@@ -8148,42 +8148,42 @@
         "value": "AY",
         "color": "Gold",
         "quantity": 1,
-        "sortkey": 4,
+        "sortkey": 8,
         "newtile": false
       },
       {
         "value": "EE",
         "color": "Gold",
         "quantity": 1,
-        "sortkey": 4,
+        "sortkey": 8,
         "newtile": false
       },
       {
         "value": "OW",
         "color": "Gold",
         "quantity": 1,
-        "sortkey": 4,
+        "sortkey": 8,
         "newtile": true
       },
       {
         "value": "OE",
         "color": "Gold",
         "quantity": 1,
-        "sortkey": 4,
+        "sortkey": 8,
         "newtile": true
       },
       {
         "value": "EW",
         "color": "Gold",
         "quantity": 1,
-        "sortkey": 4,
+        "sortkey": 8,
         "newtile": true
       },
       {
         "value": "UE",
         "color": "Gold",
         "quantity": 1,
-        "sortkey": 4,
+        "sortkey": 8,
         "newtile": true
       }
     ],
@@ -8416,56 +8416,56 @@
         "value": "ANG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ING",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ONG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "UNG",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 3,
         "newtile": false
       },
       {
         "value": "ANK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "INK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "ONK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
         "value": "UNK",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 4,
         "newtile": false
       },
       {
@@ -8479,49 +8479,49 @@
         "value": "'",
         "color": "SeaGreen",
         "quantity": 1,
-        "sortkey": 3,
+        "sortkey": 7,
         "newtile": false
       },
       {
         "value": "OLL",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OLT",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "OST",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 5,
         "newtile": false
       },
       {
         "value": "ILD",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
         "value": "IND",
         "color": "FireBrick",
         "quantity": 1,
-        "sortkey": 2,
+        "sortkey": 6,
         "newtile": false
       },
       {
@@ -8535,7 +8535,7 @@
         "value": "AY",
         "color": "Gold",
         "quantity": 1,
-        "sortkey": 4,
+        "sortkey": 8,
         "newtile": false
       },
       {
@@ -8549,42 +8549,42 @@
         "value": "OW",
         "color": "Gold",
         "quantity": 1,
-        "sortkey": 4,
+        "sortkey": 8,
         "newtile": false
       },
       {
         "value": "OE",
         "color": "Gold",
         "quantity": 1,
-        "sortkey": 4,
+        "sortkey": 8,
         "newtile": false
       },
       {
         "value": "EW",
         "color": "Gold",
         "quantity": 1,
-        "sortkey": 4,
+        "sortkey": 8,
         "newtile": false
       },
       {
         "value": "UE",
         "color": "Gold",
         "quantity": 1,
-        "sortkey": 4,
+        "sortkey": 8,
         "newtile": false
       },
       {
         "value": "AI",
         "color": "Gold",
         "quantity": 1,
-        "sortkey": 4,
+        "sortkey": 8,
         "newtile": true
       },
       {
         "value": "OA",
         "color": "Gold",
         "quantity": 1,
-        "sortkey": 4,
+        "sortkey": 8,
         "newtile": true
       }
     ]
