@@ -2,36 +2,36 @@
 
 /*Create tiles based on lesson*/
 function makeTiles(tiles) {
-  reset()
-  if(lessonTilesProgress < lessonTilesProgressMax){
-    nextButton.innerHTML = "Add "+lessonTiles[0].value
-  } else{
-    nextButton.innerHTML = ""
+  reset();
+  if (lessonTilesProgress < lessonTilesProgressMax) {
+    nextButton.innerHTML = "Add " + lessonTiles[0].value;
+  } else {
+    nextButton.innerHTML = "";
   }
-  tiles.sort((a,b) => {
-    let va = a.value.toLowerCase()
-    vb = b.value.toLowerCase()
-    if (va < vb){
-      return -1
+  tiles.sort((a, b) => {
+    let va = a.value.toLowerCase();
+    vb = b.value.toLowerCase();
+    if (va < vb) {
+      return -1;
     }
-    if (va > vb){
-      return 1
+    if (va > vb) {
+      return 1;
     }
-    return 0
-  })
-  tiles.sort((a,b) => {
-    let va = a.sortkey
-    vb = b.sortkey
-    if (va < vb){
-      return -1
+    return 0;
+  });
+  tiles.sort((a, b) => {
+    let va = a.sortkey;
+    vb = b.sortkey;
+    if (va < vb) {
+      return -1;
     }
-    if (va > vb){
-      return 1
+    if (va > vb) {
+      return 1;
     }
-    return 0
-  })
-  placementX = 5
-  placementY = 5
+    return 0;
+  });
+  placementX = 5;
+  placementY = 5;
   tiles.forEach((tile) => {
     tileCount = tile.quantity;
     tempcount = 0;
@@ -54,23 +54,23 @@ function makeTiles(tiles) {
       );
       newtile.innerHTML = tile.value.toLowerCase();
       whiteboard.appendChild(newtile);
-      if (newtile.offsetWidth+5+placementX > screen.width){
-        placementX = 5
-        placementY = placementY+newtile.offsetHeight+5
+      if (newtile.offsetWidth + 5 + placementX > screen.width) {
+        placementX = 5;
+        placementY = placementY + newtile.offsetHeight + 5;
       }
       newtile.style.left = placementX + "px";
       newtile.style.top = placementY + "px";
       tempcount = tempcount + 1;
     }
-    placementX = placementX +newtile.offsetWidth+5
+    placementX = placementX + newtile.offsetWidth + 5;
   });
   /*make iems with class "dragMe" moveable*/
   findMoveables("dragMe", "tiles");
 }
 
 /* Clears tiles off board*/
-function reset(){
-  document.getElementById('tiles').innerHTML = ''
+function reset() {
+  document.getElementById("tiles").innerHTML = "";
 }
 
 /* makes element given as argument moveable*/
@@ -148,98 +148,130 @@ function findMoveables(className, divID) {
   });
 }
 
-function updateTiles(){
-  level = document.getElementById("levelSelect").value
-  lesson = document.getElementById("lessonSelect").value
-  levelTiles = tilesJSON[level]
-  tiles = levelTiles[lesson]
-  lessonTiles = tiles.filter(tile => tile.newtile)
-  tiles = tiles.filter(tile => tile.newtile == false)
-  lessonTilesProgress = 0
-  lessonTilesProgressMax = parseInt(lessonTiles.length)
-  makeTiles(tiles)
+function updateTiles() {
+  level = document.getElementById("levelSelect").value;
+  lesson = document.getElementById("lessonSelect").value;
+  levelTiles = tilesJSON[level];
+  tiles = levelTiles[lesson];
+  lessonTiles = tiles.filter((tile) => tile.newtile);
+  tiles = tiles.filter((tile) => tile.newtile == false);
+  lessonTilesProgress = 0;
+  lessonTilesProgressMax = parseInt(lessonTiles.length);
+  makeTiles(tiles);
 }
 
-function updateLessonSelect(){
-  level = document.getElementById("levelSelect").value
-  lessonMenu = document.getElementById("lessonSelect")
-  lessonMenu.innerHTML = ""
-  lessons = tilesJSON[level]
-  lessonKeys  = Object.keys(lessons)
+function updateLessonSelect() {
+  level = document.getElementById("levelSelect").value;
+  lessonMenu = document.getElementById("lessonSelect");
+  lessonMenu.innerHTML = "";
+  lessons = tilesJSON[level];
+  lessonKeys = Object.keys(lessons);
   lessonKeys.forEach((lesson) => {
-    option = document.createElement("option")
-    option.setAttribute("value",lesson)
-    option.innerHTML = "Lesson "+lesson
-    lessonMenu.appendChild(option)
-  })
+    option = document.createElement("option");
+    option.setAttribute("value", lesson);
+    option.innerHTML = "Lesson " + lesson;
+    lessonMenu.appendChild(option);
+  });
 }
 
-function updateLevelSelect(){
-  levelMenu = document.getElementById("levelSelect")
-  levelMenu.innerHTML = ""
-  levelKeys  = Object.keys(tilesJSON)
+function updateLevelSelect() {
+  levelMenu = document.getElementById("levelSelect");
+  levelMenu.innerHTML = "";
+  levelKeys = Object.keys(tilesJSON);
   levelKeys.forEach((level) => {
-    option = document.createElement("option")
-    option.setAttribute("value",level)
-    option.innerHTML = "Level "+level
-    levelMenu.appendChild(option)
-  })
-  updateLessonSelect()
+    option = document.createElement("option");
+    option.setAttribute("value", level);
+    option.innerHTML = "Level " + level;
+    levelMenu.appendChild(option);
+  });
+  updateLessonSelect();
 }
 
-function nextTile(){
-  if(lessonTilesProgress < lessonTilesProgressMax){
-    tiles.push(lessonTiles.shift())
-    lessonTilesProgress += 1
-    makeTiles(tiles)
-    document.getElementById("next").innerHTML = "Add "+lessonTiles[0].value
+function nextTile() {
+  if (lessonTilesProgress < lessonTilesProgressMax) {
+    tiles.push(lessonTiles.shift());
+    lessonTilesProgress += 1;
+    makeTiles(tiles);
+    document.getElementById("next").innerHTML = "Add " + lessonTiles[0].value;
   }
 }
 
-function fullscreen(){
-  content = document.getElementById('content')
-  if (document.fullscreenEnabled && full == false){
-    content.requestFullscreen()
-    document.getElementById("fullscreen").innerHTML = "Min"
-    full = true
-  } else{
-    document.exitFullscreen()
-    document.getElementById("fullscreen").innerHTML = "Max"
-    full = false
+function fullscreen() {
+  content = document.getElementById("content");
+  if (
+    document.fullscreenElement ||
+    document.mozFullScreenElement ||
+    document.webkitFullscreenElement
+  ) {
+    if (document.cancelFullScreen) {
+      document.cancelFullScreen();
+      document.getElementById("fullscreen").innerHTML = "Max";
+      full = false;
+    } else {
+      if (document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+        document.getElementById("fullscreen").innerHTML = "Max";
+        full = false;
+      } else {
+        if (document.webkitCancelFullScreen) {
+          document.webkitCancelFullScreen();
+          document.getElementById("fullscreen").innerHTML = "Max";
+          full = false;
+        }
+      }
+    }
+  } else {
+    if (content.requestFullscreen) {
+      content.requestFullscreen();
+      document.getElementById("fullscreen").innerHTML = "Min";
+      full = true;
+    } else {
+      if (content.mozRequestFullScreen) {
+        content.mozRequestFullScreen();
+        document.getElementById("fullscreen").innerHTML = "Min";
+        full = true;
+      } else {
+        if (content.webkitRequestFullscreen) {
+          content.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+          document.getElementById("fullscreen").innerHTML = "Min";
+          full = true;
+        }
+      }
+    }
   }
 }
 
-function wash(){
-  makeTiles(tiles)
+function wash() {
+  makeTiles(tiles);
 }
 
 /* Main program */
 
-level = 0
-lesson = 0
-lessonTilesProgress = 0
-lessonTilesProgressMax = 0
-lessonTiles = {}
-tiles = {}
-full = false
-nextButton = document.getElementById("next")
-fetch(
-  "tiles_content.json"
-)
+level = 0;
+lesson = 0;
+lessonTilesProgress = 0;
+lessonTilesProgressMax = 0;
+lessonTiles = {};
+tiles = {};
+full = false;
+nextButton = document.getElementById("next");
+fetch("tiles_content.json")
   .then((tilesTMP) => {
     return tilesTMP.json();
   })
   .then((tiles) => {
-    tilesJSON = tiles
-    updateLevelSelect()
-    updateTiles()
+    tilesJSON = tiles;
+    updateLevelSelect();
+    updateTiles();
   });
 
-document.getElementById('levelSelect').addEventListener('change',updateLessonSelect)
-document.getElementById('levelSelect').addEventListener('change',updateTiles)
-document.getElementById('lessonSelect').addEventListener('change',updateTiles)
-window.addEventListener('resize',updateTiles)
-document.getElementById("reset").addEventListener("click",updateTiles)
-nextButton.addEventListener("click",nextTile)
-document.getElementById("fullscreen").addEventListener('click',fullscreen)
-document.getElementById("wash").addEventListener("click",wash)
+document
+  .getElementById("levelSelect")
+  .addEventListener("change", updateLessonSelect);
+document.getElementById("levelSelect").addEventListener("change", updateTiles);
+document.getElementById("lessonSelect").addEventListener("change", updateTiles);
+window.addEventListener("resize", updateTiles);
+document.getElementById("reset").addEventListener("click", updateTiles);
+nextButton.addEventListener("click", nextTile);
+document.getElementById("fullscreen").addEventListener("click", fullscreen);
+document.getElementById("wash").addEventListener("click", wash);

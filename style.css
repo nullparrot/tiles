@@ -9,6 +9,8 @@
   --mobile-tile-radius: calc(var(--mobile-tile-size)*.14);
   --mobile-tile-font-size: var(--mobile-tile-size);
   --mobile-tile-line-height: calc(var(--mobile-tile-size)*.94);
+  --menu-bar-height: 40px;
+  --menu-bar-font-size: calc(var(--menu-bar-height)*.5);
 }
 
 
@@ -18,10 +20,14 @@ body {
 
 #menu select{
   text-align: center;
-  line-height: 30px;
+  line-height: var(--menu-bar-height);
   border-radius: 0;
-  height: 30px;
-  font-size: 20px;
+  height: var(--menu-bar-height);
+  font-size: var(--menu-bar-font-size);
+  color: black;
+  background-color: #f2f2e3;
+  border: 1px solid #565455;
+  border-radius: 3px;
 }
 
 #menu{
@@ -33,18 +39,23 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  background-color: #333;
 }
 
 #menu button{
-  font-size: 20px;
-  line-height: 20px;
-  height: 30px;
+  font-size: var(--menu-bar-font-size);
+  line-height: var(--menu-bar-font-size);
+  height: var(--menu-bar-height);
   margin: 0;
+  color: black;
+  background-color: #f2f2e3;
+  border: 1px solid #565455;
+  border-radius: 3px;
 }
 
 #tiles {
   position: absolute;
-  top: 30px;
+  top: var(--menu-bar-height);
   right: 0px;
   bottom: 0px;
   left: 0px;
