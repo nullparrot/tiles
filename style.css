@@ -21,12 +21,11 @@ body {
 #menu select{
   text-align: center;
   line-height: var(--menu-bar-height);
-  border-radius: 0;
   height: var(--menu-bar-height);
   font-size: var(--menu-bar-font-size);
   color: black;
   background-color: #f2f2e3;
-  border: 1px solid #565455;
+  border: 1px solid #333;
   border-radius: 3px;
 }
 
@@ -49,7 +48,7 @@ body {
   margin: 0;
   color: black;
   background-color: #f2f2e3;
-  border: 1px solid #565455;
+  border: 1px solid #333;
   border-radius: 3px;
 }
 
@@ -131,7 +130,7 @@ button img{
         grid-column: 3/5;
       }
       #tiles{
-        top: 60px;
+        top: calc(var(--menu-bar-height)*2);
       }
   /* end of media query */ 
   } 
