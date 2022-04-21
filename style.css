@@ -31,7 +31,7 @@ body {
 
 #menu{
   display: grid;
-  grid-template-columns: 75px 100px 1fr 1fr 100px 75px;
+  grid-template-columns: 88px 88px 1fr 1fr 100px 75px;
   margin: 0;
   width: 100%;
   position: absolute;
