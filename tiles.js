@@ -71,6 +71,7 @@ function makeTiles(tiles) {
 /* Clears tiles off board*/
 function reset() {
   document.getElementById("tiles").innerHTML = "";
+  currentZIndex = 1;
 }
 
 /* makes element given as argument moveable*/
@@ -105,20 +106,22 @@ function makeMoveables(moveID, divID) {
 
     if (e.target === dragItem) {
       active = true;
+      console.log("Old z index",currentZIndex)
+    currentZIndex = currentZIndex+1;
+    console.log("New z index",currentZIndex)
     }
   }
 
   function dragEnd(e) {
     initialX = currentX;
     initialY = currentY;
-
     active = false;
   }
 
   function drag(e) {
     if (active) {
       e.preventDefault();
-
+      dragItem.style.zIndex = currentZIndex;
       if (e.type === "touchmove") {
         currentX = e.touches[0].clientX - initialX;
         currentY = e.touches[0].clientY - initialY;
@@ -254,6 +257,7 @@ lessonTilesProgressMax = 0;
 lessonTiles = {};
 tiles = {};
 full = false;
+currentZIndex = 1;
 nextButton = document.getElementById("next");
 fetch("tiles_content.json")
   .then((tilesTMP) => {
