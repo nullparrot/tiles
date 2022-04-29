@@ -80,7 +80,6 @@ body {
 }
 .dragMe:active {
   border-color: rgba(168, 218, 220, 1);
-  z-index: 1;
 }
 .dragMe:hover {
   cursor: pointer;
