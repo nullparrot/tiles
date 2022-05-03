@@ -13,6 +13,9 @@
   --menu-bar-font-size: calc(var(--menu-bar-height)*.5);
 }
 
+html{
+  background-color: #333;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -38,7 +41,6 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #333;
 }
 
 #menu button{
@@ -58,7 +60,6 @@ body {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: #333;
   touch-action: none;
 }
 
@@ -148,5 +149,6 @@ button img{
           line-height: var(--mobile-tile-line-height);
   
         }
+        
     /* end of media query */ 
     } 

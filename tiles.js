@@ -54,7 +54,7 @@ function makeTiles(tiles) {
       );
       newtile.innerHTML = tile.value.toLowerCase();
       whiteboard.appendChild(newtile);
-      if (newtile.offsetWidth + 5 + placementX > screen.width) {
+      if (newtile.offsetWidth + 5 + placementX > window.innerWidth) {
         placementX = 5;
         placementY = placementY + newtile.offsetHeight + 5;
       }
@@ -274,7 +274,7 @@ document
   .addEventListener("change", updateLessonSelect);
 document.getElementById("levelSelect").addEventListener("change", updateTiles);
 document.getElementById("lessonSelect").addEventListener("change", updateTiles);
-window.addEventListener("resize", updateTiles);
+/*window.addEventListener("resize", updateTiles);*/
 document.getElementById("reset").addEventListener("click", updateTiles);
 nextButton.addEventListener("click", nextTile);
 document.getElementById("fullscreen").addEventListener("click", fullscreen);
