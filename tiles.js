@@ -106,9 +106,9 @@ function makeMoveables(moveID, divID) {
 
     if (e.target === dragItem) {
       active = true;
-      console.log("Old z index",currentZIndex)
-    currentZIndex = currentZIndex+1;
-    console.log("New z index",currentZIndex)
+      console.log("Old z index", currentZIndex);
+      currentZIndex = currentZIndex + 1;
+      console.log("New z index", currentZIndex);
     }
   }
 
