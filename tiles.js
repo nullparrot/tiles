@@ -3,33 +3,6 @@
 /*Create tiles based on lesson*/
 function makeTiles(tiles) {
   reset();
-  if (lessonTilesProgress < lessonTilesProgressMax) {
-    nextButton.innerHTML = "Add " + lessonTiles[0].value;
-  } else {
-    nextButton.innerHTML = "";
-  }
-  tiles.sort((a, b) => {
-    let va = a.value.toLowerCase();
-    vb = b.value.toLowerCase();
-    if (va < vb) {
-      return -1;
-    }
-    if (va > vb) {
-      return 1;
-    }
-    return 0;
-  });
-  tiles.sort((a, b) => {
-    let va = a.sortkey;
-    vb = b.sortkey;
-    if (va < vb) {
-      return -1;
-    }
-    if (va > vb) {
-      return 1;
-    }
-    return 0;
-  });
   placementX = 5;
   placementY = 5;
   tiles.forEach((tile) => {
@@ -64,7 +37,7 @@ function makeTiles(tiles) {
     }
     placementX = placementX + newtile.offsetWidth + 5;
   });
-  /*make iems with class "dragMe" moveable*/
+  /*make items with class "dragMe" moveable*/
   findMoveables("dragMe", "tiles");
 }
 
@@ -151,54 +124,6 @@ function findMoveables(className, divID) {
   });
 }
 
-function updateTiles() {
-  level = document.getElementById("levelSelect").value;
-  lesson = document.getElementById("lessonSelect").value;
-  levelTiles = tilesJSON[level];
-  tiles = levelTiles[lesson];
-  lessonTiles = tiles.filter((tile) => tile.newtile);
-  tiles = tiles.filter((tile) => tile.newtile == false);
-  lessonTilesProgress = 0;
-  lessonTilesProgressMax = parseInt(lessonTiles.length);
-  makeTiles(tiles);
-}
-
-function updateLessonSelect() {
-  level = document.getElementById("levelSelect").value;
-  lessonMenu = document.getElementById("lessonSelect");
-  lessonMenu.innerHTML = "";
-  lessons = tilesJSON[level];
-  lessonKeys = Object.keys(lessons);
-  lessonKeys.forEach((lesson) => {
-    option = document.createElement("option");
-    option.setAttribute("value", lesson);
-    option.innerHTML = "Lesson " + lesson;
-    lessonMenu.appendChild(option);
-  });
-}
-
-function updateLevelSelect() {
-  levelMenu = document.getElementById("levelSelect");
-  levelMenu.innerHTML = "";
-  levelKeys = Object.keys(tilesJSON);
-  levelKeys.forEach((level) => {
-    option = document.createElement("option");
-    option.setAttribute("value", level);
-    option.innerHTML = "Level " + level;
-    levelMenu.appendChild(option);
-  });
-  updateLessonSelect();
-}
-
-function nextTile() {
-  if (lessonTilesProgress < lessonTilesProgressMax) {
-    tiles.push(lessonTiles.shift());
-    lessonTilesProgress += 1;
-    makeTiles(tiles);
-    document.getElementById("next").innerHTML = "Add " + lessonTiles[0].value;
-  }
-}
-
 function fullscreen() {
   content = document.getElementById("content");
   if (
@@ -245,37 +170,99 @@ function fullscreen() {
 }
 
 function wash() {
-  makeTiles(tiles);
+  makeTiles(currentTiles);
+}
+
+function lessonMenu() {
+  currentLevel = document.getElementById("levelSelect").value;
+  lessonMenu = document.getElementById("lessonSelect");
+  lessonMenu.innerHTML = "";
+  lessonIterate = 1;
+  lessonCount = levels[currentLevel];
+  while (lessonIterate <= lessonCount) {
+    option = document.createElement("option");
+    option.setAttribute("value", lessonIterate);
+    option.innerHTML = "Lesson " + lessonIterate;
+    lessonMenu.appendChild(option);
+    lessonIterate += 1;
+  }
+  populateTiles();
+}
+
+function tileMenu() {
+  whiteboard = document.getElementById("tiles");
+  tilesBoard = document.getElementById("floatingMenu");
+  whiteboard.classList.toggle("expanded");
+  tilesBoard.classList.toggle("expanded");
+}
+
+function selectTile(liveButton) {
+  console.log("Clicked button", liveButton);
+  liveButton.classList.toggle("selected");
+}
+
+function populateTiles() {
+  currentLesson = document.getElementById("lessonSelect").value;
+  currentLevel = document.getElementById("levelSelect").value;
+  for (tileFamily in tiles) {
+    familyDiv = document.getElementById(tileFamily);
+    familyDiv.innerHTML = "";
+    for (tile in tiles[tileFamily]) {
+      if (tiles[tileFamily][tile].level <= currentLevel) {
+        if (Math.floor(tiles[tileFamily][tile].lesson) <= currentLesson || tiles[tileFamily][tile].level < currentLevel) {
+          newtile = document.createElement("button");
+          newtile.innerHTML = tiles[tileFamily][tile].value;
+          newtile.setAttribute("type", "button");
+          newtile.setAttribute("value", tiles[tileFamily][tile].value);
+          newtile.setAttribute(
+            "class",
+            tiles[tileFamily][tile].color + "Tile tilesButton"
+          );
+          familyDiv.appendChild(newtile);
+        }
+      }
+    }
+  }
 }
 
 /* Main program */
-
-level = 0;
-lesson = 0;
+currentLevel = 0;
+currentLesson = 0;
 lessonTilesProgress = 0;
 lessonTilesProgressMax = 0;
 lessonTiles = {};
-tiles = {};
+currentTiles = {};
 full = false;
 currentZIndex = 1;
 nextButton = document.getElementById("next");
-fetch("tiles_content.json")
+
+fetch("tiles.json")
   .then((tilesTMP) => {
     return tilesTMP.json();
   })
-  .then((tiles) => {
-    tilesJSON = tiles;
-    updateLevelSelect();
-    updateTiles();
+  .then((tilesJSON) => {
+    levels = tilesJSON.levels;
+    tiles = tilesJSON.tiles;
+    levelMenu = document.getElementById("levelSelect");
+    levelMenu.innerHTML = "";
+    levelKeys = Object.keys(levels);
+    levelKeys.forEach((level) => {
+      option = document.createElement("option");
+      option.setAttribute("value", level);
+      option.innerHTML = "Level " + level;
+      levelMenu.appendChild(option);
+    });
+    lessonMenu();
+    return tiles;
+  })
+  .then((tilesTMP) => {
+    populateTiles();
   });
 
-document
-  .getElementById("levelSelect")
-  .addEventListener("change", updateLessonSelect);
-document.getElementById("levelSelect").addEventListener("change", updateTiles);
-document.getElementById("lessonSelect").addEventListener("change", updateTiles);
-/*window.addEventListener("resize", updateTiles);*/
-document.getElementById("reset").addEventListener("click", updateTiles);
-nextButton.addEventListener("click", nextTile);
+document.getElementById("levelSelect").addEventListener("change", lessonMenu);
 document.getElementById("fullscreen").addEventListener("click", fullscreen);
 document.getElementById("wash").addEventListener("click", wash);
+document.getElementById("tilesExpand").addEventListener("click", tileMenu);
+document
+  .getElementById("lessonSelect")
+  .addEventListener("change", populateTiles);
