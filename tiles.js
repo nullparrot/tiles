@@ -75,6 +75,7 @@ function reset() {
 }
 
 /* makes element given as argument moveable*/
+/* This section of code from guide at https://www.kirupa.com/html5/drag.htm with minor adaptations */
 function makeMoveables(moveID, divID) {
   var dragItem = document.getElementById(moveID);
   var container = document.getElementById(divID);
